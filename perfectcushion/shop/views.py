@@ -4,7 +4,7 @@ from .models import Category, Product
 
 # Create your views here.
 def index(request):
-    text_var='this is my first django app web'
+    text_var='this is my first django app web test1'
     return HttpResponse(text_var)
 
 # category view
