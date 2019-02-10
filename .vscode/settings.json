@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "/Users/sysmoon/.local/share/virtualenvs/moonid-gdcXmSjv/bin/python"
+    "python.pythonPath": "/Users/sysmoon/.local/share/virtualenvs/moonid-IrznYA47/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }
