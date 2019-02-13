@@ -15,6 +15,7 @@ RUN pip3 install -r requirements.txt
 ADD . /code/
 RUN python3 /code/perfectcushion/manage.py makemigrations
 RUN python3 /code/perfectcushion/manage.py migrate
+RUN python3 /code/perfectcushion/manage.py collectstatic --no-input
 	
 EXPOSE 8000 2222
 #CMD ["python", "/code/manage.py", "runserver", "0.0.0.0:8000"]
