@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect, get_object_or_404
 from shop.models import Product
 from .models import Cart, CartItem
 from django.core.exceptions import ObjectDoesNotExist
-import stripe
 
 
 # Create your views here.
