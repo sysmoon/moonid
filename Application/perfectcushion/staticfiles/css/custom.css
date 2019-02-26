@@ -72,3 +72,43 @@ body {
     font-size: 12px;
     text-decoration: none;
 }
+.my_prod_title {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.my_prod_text {
+    padding-right: 20px;
+}
+.my_search_test {
+    padding-top: 20px;
+}
+
+/* cart page */
+.my_custom_table {
+    min-width: 400px;
+    font-size: 14px;
+}
+.my_custom_thead {
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    background-color: #f8f9fa!important;
+}
+.custom_image {
+    width: 100px;
+    height: 100px;
+}
+.custom_a {
+    text-decoration: none;
+}
+.custom_icon {
+    text-decoration: none;
+    color: #868e96!important;
+}
+.my_custom_button {
+    margin-top: 5px;
+}
+
