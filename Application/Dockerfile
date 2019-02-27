@@ -3,7 +3,7 @@ LABEL maintainer="Azure App Service Container Images <devops sysmoon@sk.com>"
 
 #RUN apt-get update && apt-get install -y python-pip python-dev && apt-get clean && pip install --upgrade pip
 RUN apt-get update \
-  && apt-get install -y python3-pip python3-dev mysql-client \
+  && apt-get install -y python3-pip python3-dev mysql-client sudo apt-get install libmariadbclient-dev \
   && cd /usr/local/bin \
   && ln -s /usr/bin/python3 python \
   && pip3 install --upgrade pip
