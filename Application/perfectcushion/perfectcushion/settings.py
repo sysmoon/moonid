@@ -25,7 +25,7 @@ SECRET_KEY = '=5%d)i$z_2^(s&bh5r069f@&pw(00w4j_88w=o00erlra&q&&*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'moonindang.azurewebsites.net', 'home.moonid.me'] 
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'moonindang.azurewebsites.net', 'moonindang-qa.azurewebsites.net', 'moonindang-dev.azurewebsites.net', 'shop.moonid.me'] 
 
 
 # Application definition
