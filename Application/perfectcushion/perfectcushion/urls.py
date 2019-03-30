@@ -25,6 +25,7 @@ urlpatterns = [
     path('shop/', include('shop.urls')),
     path('search/', include('search_app.urls')),
     path('cart/', include('cart.urls')),
+    path('order/', include('order.urls')),
     path('account/create/', views.SingupView, name='signup'),
     path('account/login/', views.SigninView, name='signin'),
     path('account/logout/', views.SignoutView, name='signout'),

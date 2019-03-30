@@ -12,11 +12,11 @@ class Order(models.Model):
     billingCity = models.CharField(max_length=250, blank=True)
     billingPostcode = models.CharField(max_length=10, blank=True)
     billingCountry = models.CharField(max_length=250, blank=True)
-    shoppingName = models.CharField(max_length=250, blank=True)
-    shoppingAddress1 = models.CharField(max_length=250, blank=True)
-    shoppingCity = models.CharField(max_length=250, blank=True)
-    shoppingPostcode = models.CharField(max_length=10, blank=True)
-    shoppingCountry = models.CharField(max_length=250, blank=True)
+    shippingName = models.CharField(max_length=250, blank=True)
+    shippingAddress1 = models.CharField(max_length=250, blank=True)
+    shippingCity = models.CharField(max_length=250, blank=True)
+    shippingPostcode = models.CharField(max_length=10, blank=True)
+    shippingCountry = models.CharField(max_length=250, blank=True)
 
     class Meta:
         db_table = 'Order'
@@ -36,7 +36,7 @@ class OrderItem(models.Model):
         db_table ='OrderItem'
 
     def sub_total(self):
-        return self.quantity * self._perform_unique_checks
+        return self.quantity * self.price
     
     def __str__(self):
         return self.product 
